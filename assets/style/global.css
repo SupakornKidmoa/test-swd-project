@@ -1,0 +1,141 @@
+body {
+  /* font-family: 'Kanit', sans-serif !important;
+  word-spacing: 1px; */
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f2f3f7;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
+  /* min-width: 1200px; */
+}
+
+.section-title {
+  font-size: 1.1rem !important;
+  font-weight: bold;
+}
+
+.ant-rate-star {
+  margin-right: 0px;
+}
+
+.ant-rate-star.ant-rate-star-full,
+.ant-rate-star.ant-rate-star-zero,
+.ant-rate-star.ant-rate-star-half.ant-rate-star-active,
+.ant-rate-star.ant-rate-star-half.ant-rate-star-active:hover,
+.ant-rate-star.ant-rate-star-full:hover,
+.ant-rate-star.ant-rate-star-zero:hover {
+  transform: scale(0.7);
+}
+
+.slick-content {
+  visibility: hidden;
+}
+
+.slick-initialized {
+  visibility: visible;
+}
+
+.nav-sub-item-title a {
+  text-decoration: none;
+}
+
+.nav-sub-item-wraper i {
+  font-size: 10px;
+}
+
+.bottom-toolbar {
+  border-top: 1px solid #eaeaea;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding: 24px 24px 24px 24px;
+  text-align: right;
+  background: white;
+}
+
+.label--required label::before {
+  display: inline-block;
+  margin-right: 4px;
+  color: #f5222d;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: '*';
+}
+
+.ant-anchor-wrapper {
+  background-color: initial;
+}
+
+.valign-top {
+  vertical-align: top;
+}
+
+.valign-middle {
+  vertical-align: middle;
+}
+
+.valign-bottom {
+  vertical-align: bottom;
+}
+
+.form-normal-button {
+  min-width: 100px;
+}
+
+.form-submit-button {
+  min-width: 120px;
+}
+
+.form-product-variant-setting
+  .form-product-variant-item
+  .has-error.has-feedback
+  .ant-form-item-children-icon {
+  right: 30.3% !important;
+}
+
+.custom-addon-input .ant-input-group-addon {
+  background-color: white;
+}
+
+.bg-image-container {
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+.nested-table .ant-table-expanded-row {
+  border-bottom: 3px solid #e8e8e8;
+}
+
+.nested-table.nested-table-white-background .ant-table-expanded-row td {
+  background-color: white;
+}
+
+.nested-table .ant-table-expanded-row table tbody tr:last-child td {
+  border-bottom: 0px;
+}
+
+.nested-table .ant-table-expanded-row table thead tr th,
+.nested-table .ant-table-expanded-row table tbody tr td {
+  padding: 12px 8px;
+}
